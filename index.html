@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyCV</title>
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header class="navbar" id="topnav">
+      <button href="javascript:void(0)" class="title" onclick="DarkMode()" id="switch">MyCV</button>
+      <ul class="navbar-right" id="nvright">
+        <li id="navbtn">
+          <a href="javascript:void(0);" class="icon" onclick="Menu()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </li>
+        <li><a class="active" href="#">Home</a></li>
+        <li><a onclick="openNav()">Contact</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+      <div id="mySidenav" class="sidenav">
+        <h1 class="cntct">Contact Me:</h1>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <img src="images/github.png" alt="github" class="contact">
+        <a href="https://github.com/Kadigas">Github</a>
+        <img src="images/ig.png" alt="instagram" class="contact">
+        <a href="https://www.instagram.com/adbagas05/">Instagram</a>
+        <img src="images/linkedin.png" alt="linkedin" class="contact">
+        <a href="https://www.linkedin.com/in/andhika-ditya-bagaskara-d-5488111a0/">LinkedIn</a>
+      </div>
+    </header>
+      <div class="hero-image">
+        <div class="hero-text">
+          <h1>Hi There!</h1>
+          <h2>I am Andhika Ditya Bagaskara D.</h2>
+        </div>
+      </div>
+      <div id="main">
+        <div class="box" id="about">
+          <h3 class="text1">ABOUT ME</h3>
+          <hr id="line" />
+          <p class="desc">
+            I am a computer science student who interested in web development and
+            UI/UX design. I've learned C/C++ for a year and have started to learn
+            Java and Python. I like to work hard to help others and keep up their
+            expectations about me.
+          </p>
+        </div>
+        <div class="data" id="biodata">
+          <h4 class="text1" id="bio">BIODATA</h4>
+          <img src="images/prof.jpg" alt="My Profile Photo" class="Profile" id="Top"/>
+          <p class="Bio">Name : Andhika Ditya Bagaskara D.</p>
+          <p class="Bio">Place and Date of Birth : Surabaya, 27th March 2002</p>
+          <p class="Bio">Gender : Male</p>
+          <p class="Bio">Religion : Muslim</p>
+          <p class="Bio">Nationality : Indonesian</p>
+          <p class="Bio">Phone Number : +62 812 3408 3555</p>
+          <p class="Bio">E-mail: adbagas05@gmail.com</p>
+          <img
+            src="images/prof.jpg"
+            alt="My Profile Photo"
+            class="Bottom"
+            id="Bot"
+          />
+        </div>
+        <div class="edu" id="education">
+          <h5 class="text1">EDUCATION</h5>
+          <img src="images/ITS.png" alt="Logo ITS" class="Logo" id="logoits" />
+          <div class="ITS">
+            <p id="place">Institut Teknologi Sepuluh Nopember (2020 - Now)</p>
+            <p id="depart">Informatics Engineering</p>
+            <ul id="list">
+              <li>GPA 3.62</li>
+              <li>Documentation Staff in 3DC Schematics 2021</li>
+              <li>
+                Staff in Communication and Information Division IFLS Benzaiten
+              </li>
+            </ul>
+          </div>
+          <img src="images/ITS.png" alt="Logo ITS" class="LogoBot" id="logoIts" />
+          <img
+            src="images/SMALA.png"
+            alt="Logo SMALA"
+            class="Logo"
+            id="logosmala"
+          />
+          <div class="SMALA">
+            <p id="place">SMA Negeri 5 Surabaya (2017 - 2020)</p>
+            <p id="depart">Mathematics and Science</p>
+            <ul id="list">
+              <li>Head of Media Division in SSKI V 2019-2020</li>
+              <li>Member of PARALELA</li>
+            </ul>
+          </div>
+          <img
+            src="images/SMALA.png"
+            alt="Logo SMALA"
+            class="LogoBot"
+            id="logoSmala"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
